@@ -7,6 +7,10 @@ class App < Sinatra::Base
 	get '/goodbye' do
 		erb :index
 	end
+	
+	get '/date' do
+		erb :index
+	end
 
 
 end
