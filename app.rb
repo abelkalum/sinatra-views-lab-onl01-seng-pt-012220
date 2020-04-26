@@ -4,7 +4,7 @@ class App < Sinatra::Base
 		erb :index
 	end
 	
-	get 'name' do
+	get '/goodbye' do
 		erb :index
 	end
 
